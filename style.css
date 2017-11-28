@@ -1,0 +1,40 @@
+body {
+    background-color: #95C8FC;
+}
+li{
+    list-style: none;
+}
+
+#boat {
+    max-width: 270px;
+    margin-top: 90px;
+    position: absolute;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+#circle {
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.opacity{
+    animation: appear 2s linear forwards;
+
+}
+ @keyframes appear{
+        100%{
+            opacity: 0.2;
+        }
+    }
