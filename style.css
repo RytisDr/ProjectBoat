@@ -37,6 +37,7 @@ nav a {
     border-radius: 10px;
     font-size: 1.2em;
     background-color: #8F2756;
+    min-width: 15vw;
 }
 
 nav a:hover {
@@ -169,8 +170,8 @@ p {
         margin-bottom: 5px;
     }
     nav {
-        max-height: 25vh;
-        width: 15vw;
+        max-height: 35vh;
+        min-width: 200px;
         background-color: white;
         position: absolute;
         display: flex;
