@@ -31,11 +31,12 @@ input:checked~nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Montserrat;
     line-height: 30px;
     border-radius: 10px;
     font-size: 1.2em;
+    background-color: #8F2756;
 }
 
 nav a:hover {
@@ -53,7 +54,7 @@ nav a:active {
 h1 {
     font-family: Montserrat;
     font-size: 1.5em;
-    color: white;
+    color: black;
     margin: auto;
     text-align: center;
 }
@@ -162,19 +163,23 @@ p {
     }
     nav li {
         display: block;
+        background-color: #8F2756;
+        border-radius: 30px;
+        width: 180px;
+        margin-bottom: 5px;
     }
     nav {
         max-height: 25vh;
-        overflow: hidden;
-        width: 10vw;
+        width: 15vw;
         background-color: white;
         position: absolute;
-        top: 5vh;
+        display: flex;
     }
     nav a {
         font-size: 1em;
         font-weight: 600;
         line-height: 35px;
+        margin-left: 15px;
     }
     nav a:hover {
         color: grey;
@@ -207,47 +212,49 @@ p {
     #im3,
     #im4,
     #im5 {
-        width: 350px;
         margin: 0;
     }
     #im1:hover {
-        opacity: 0.2;
+        opacity: 0.6;
         background-color: white;
     }
     #im2:hover {
-        opacity: 0.2;
+        opacity: 0.6;
         background-color: white;
     }
     #im3:hover {
-        opacity: 0.2;
+        opacity: 0.6;
         background-color: white;
     }
     #im4:hover {
-        opacity: 0.2;
+        opacity: 0.6;
         background-color: white;
     }
     #im5:hover {
-        opacity: 0.2;
+        opacity: 0.6;
         background-color: white;
         animation: appear 2s linear forwards;
     }
     h3:hover {
         color: gray;
     }
+    #firstRow {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
     #what {
+        width: 30%;
         position: relative;
-        top: 10vh;
-        left: 10vw;
+        display: flex
     }
     #who {
         position: relative;
-        top: 15vh;
-        left: 10vw;
+        display: flex;
     }
     #how {
         position: relative;
-        top: -57vh;
-        left: 65vw;
+        display: flex;
     }
     #vision {
         position: relative;
@@ -258,6 +265,10 @@ p {
         position: relative;
         top: -45vh;
         left: 35vw;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
     }
     h3 {
         font-family: Montserrat;
