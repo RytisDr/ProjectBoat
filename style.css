@@ -58,12 +58,15 @@ h1 {
 }
 h5 {
     text-align: center;
+    font-family: Montserrat;
+
 }
 #boat {
     width: 200px;
     margin-top: 90px;
+    margin-left: 25px;
     margin-right: auto;
-    left: 50px;
+    left: 0;
     right: 0;
     opacity: 1;
 }
@@ -164,6 +167,7 @@ p {
         background-color: white;
         position: absolute;
         top: 5vh;
+        z-index: 20;
     }
     nav a {
         font-size: 1em;
