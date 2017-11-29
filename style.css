@@ -28,7 +28,6 @@ input:checked~nav {
     max-height: 20vh;
     z-index: 5;
 }
-
 nav a {
     text-decoration: none;
     color: black;
@@ -57,26 +56,23 @@ h1 {
     margin: auto;
     text-align: center;
 }
-
+h5 {
+    text-align: center;
+}
 #boat {
-    max-width: 270px;
+    width: 200px;
     margin-top: 90px;
-    z-index: -1;
-    margin-left: auto;
     margin-right: auto;
-    left: 0;
+    left: 50px;
     right: 0;
     opacity: 1;
-    position: absolute;
 }
 
 #circle {
-    width: 290px;
-    height: 290px;
-    background-color: grey;
-    opacity: 0.2;
+    width: 250px;
+    height:250px;
+    background-color: whitesmoke;
     border-radius: 50%;
-    position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -84,15 +80,14 @@ h1 {
 }
 
 .opacity {
-    animation: appear 2s linear forwards;
+    animation: disappear 4s linear forwards;
 }
 
-@keyframes appear {
+@keyframes disappear {
     100% {
         opacity: 0.2;
     }
 }
-
 #im1,
 #im2,
 #im3,
@@ -153,7 +148,6 @@ p {
     height: 240px;
 }
 
-
 /*desktop style*/
 
 @media only screen and (min-width:481px) {
@@ -183,20 +177,17 @@ p {
         display: none;
     }
     #boat {
+        width: 80vw;
         max-width: 600px;
         margin-top: 22vh;
-        z-index: -1;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         opacity: 1;
-        position: absolute;
     }
     #circle {
-        width: 653px;
-        height: 653px;
-        position: absolute;
+        width: 80vw;
         margin-left: auto;
         margin-right: auto;
         left: 0;
