@@ -1,5 +1,4 @@
 body {
-    overflow: hidden;
     /*background-color: #95C8FC;*/
 }
 
@@ -230,6 +229,7 @@ p {
     #im5:hover {
         opacity: 0.2;
         background-color: white;
+        animation: appear 2s linear forwards;
     }
     h3:hover {
         color: gray;
