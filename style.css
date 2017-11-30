@@ -1,6 +1,13 @@
 body {
+<<<<<<< HEAD
+=======
+    /*background-color: #95C8FC;*/
+>>>>>>> origin/master
     margin-left: 0;
 }
+
+
+/*NAVIGATION//////////////////////////////////*/
 
 li {
     list-style: none;
@@ -51,6 +58,7 @@ nav a:active {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 #logoGradient {
     width: 49vw;
     margin-left: 25vw;
@@ -69,42 +77,48 @@ h2 {
     color: white;
     text-align: center;
     margin-top: 3vh;
-}
+=======
 
-#boat {
-    max-width: 270px;
-    margin-top: 90px;
-    z-index: -1;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    opacity: 1;
+/* INDEX PAGE STUFF//////////////////////////////////////////////*/
+
+#gradientLogo {
+    top: 10px;
+    left: 65vw;
+    width: 80px;
     position: absolute;
 }
 
-#circle {
-    width: 290px;
-    height: 290px;
-    background-color: grey;
-    opacity: 0.2;
-    border-radius: 50%;
+#gradientName {
+    width: 49vw;
+    display: inline;
+    margin-left: 32vw;
+>>>>>>> origin/master
+}
+
+#elipse {
+    width: 45vw;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40%;
     left: 0;
     right: 0;
 }
+#whiteBoat{
+    position: absolute;
+    width: 40vw;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 55%;
+    left: 0;
+    right: 0;
 
-.opacity {
-    animation: appear 2s linear forwards;
 }
-
-@keyframes appear {
-    100% {
-        opacity: 0.2;
-    }
+#mosaic {
+    margin-left: 0;
+    width: 100vw;
 }
+<<<<<<< HEAD
 
 #logoTransparent {
     position: absolute;
@@ -167,8 +181,20 @@ footer a {
     font-size: 1em;
     width: 90vw;
     margin-left: 2vw;
+=======
+h3{
+    font-family: Montserrat;
+    font-size: 7vw;
+    text-align: center;
 }
-
+#description{
+    font-family: Montserrat;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 5.5vw;
+>>>>>>> origin/master
+}
 
 /*desktop style*/
 
@@ -232,9 +258,20 @@ footer a {
         display: inline-block;
     }
     nav {
+<<<<<<< HEAD
         max-height: 35vh;
         min-width: 200px;
         grid-area: navBar;
+=======
+        max-height: 25vh;
+        width: 15vw;
+        background-color: white;
+        position: absolute;
+        <<<<<<< HEAD top: 5vh;
+        z-index: 20;
+        =======display: flex;
+        >>>>>>>origin/master
+>>>>>>> origin/master
     }
     #grid {
         display: grid;
@@ -244,6 +281,7 @@ footer a {
     label {
         display: none;
     }
+<<<<<<< HEAD
     #boat {
         max-width: 600px;
         margin-top: 22vh;
@@ -264,4 +302,6 @@ footer a {
         left: 0;
         right: 0;
     }
+=======
+>>>>>>> origin/master
 }
