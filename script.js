@@ -6,11 +6,6 @@ let button4 = document.querySelector("#im4");
 let button5 = document.querySelector("#im5");
 let text1 = document.querySelector("#p1");
 
-window.addEventListener('load', start);
-
-function start() {
-    boat.classList.add("opacity");
-}
 button1.addEventListener("click", beClicked);
 
 function beClicked() {

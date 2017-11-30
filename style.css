@@ -89,7 +89,7 @@ h3{
     font-size: 7vw;
     text-align: center;
 }
-#description{
+.description{
     font-family: Montserrat;
     text-align: left;
     padding-left: 10vw;
@@ -152,24 +152,23 @@ h3{
     #gradientName {
         position: absolute;
      width: 15vw;
-    margin-left: 55vw;
-    margin-left: 55vw;
+    margin-left: 80vw;
 }
     h3{
-    display: inline-block;
-    position: absolute;
-    font-size: 1.5em;
-    text-align: justify;
-    margin-top: 100px;
-    padding-left: 10vw;
+    font-size: 2em;
+    padding-left: 5vw;
     }
-    #description{
+    .description{
     font-family: Montserrat;
     text-align: left;
-    position: absolute;
-    display: inline;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 1.2em;
+    font-size: 1.5vw;
+        padding-left: 5vw;
+
 }
+    #text{
+        margin-left: 50%;
+        margin-top: -45vw;
+        padding-right: 10vw;
+
+    }
 }
