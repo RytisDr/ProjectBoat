@@ -11,7 +11,6 @@ window.addEventListener('load', start);
 function start() {
     boat.classList.add("opacity");
 }
-
 button1.addEventListener("click", beClicked);
 
 function beClicked() {

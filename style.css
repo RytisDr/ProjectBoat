@@ -1,18 +1,16 @@
 body {
     /*background-color: #95C8FC;*/
+    margin-left: 0;
 }
-
+/*NAVIGATION//////////////////////////////////*/
 li {
     list-style: none;
 }
-
 input {
-    grid-area: input;
     display: none;
 }
 
 label {
-    grid-area: label;
     cursor: pointer;
     font-size: 1.6em;
     line-height: 45px;
@@ -49,107 +47,29 @@ nav a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-
-h1 {
-    font-family: Montserrat;
-    font-size: 1.5em;
-    color: black;
-    margin: auto;
-    text-align: center;
-}
-h5 {
-    text-align: center;
-    font-family: Montserrat;
-
-}
-#boat {
-    width: 200px;
-    margin-top: 90px;
-    margin-left: 25px;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    opacity: 1;
-}
-
-#circle {
-    width: 250px;
-    height:250px;
-    background-color: whitesmoke;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-}
-
-.opacity {
-    animation: disappear 4s linear forwards;
-}
-
-@keyframes disappear {
-    100% {
-        opacity: 0.2;
-    }
-}
-#im1,
-#im2,
-#im3,
-#im4,
-#im5 {
-    width: 315px;
-    margin: auto;
-    align-self: center;
-}
-
-#what {
-    position: relative;
-    top: 40vh;
-}
-
-#who {
-    position: relative;
-    top: 45vh;
-}
-
-#how {
-    position: relative;
-    top: 50vh;
-}
-
-#vision {
-    position: relative;
-    top: 55vh;
-}
-
-#premium {
-    position: relative;
-    top: 60vh;
-}
-
-h3 {
-    font-family: Montserrat;
-    font-size: 2.5em;
-    color: white;
-    font-weight: bolder;
+/* INDEX PAGE STUFF//////////////////////////////////////////////*/
+#gradientLogo {
+    top: 77px;
+    width: 25vw;
     position: absolute;
-    top: 15vh;
-    left: 10vw;
-    text-shadow: 10px 0px 20px black;
-    margin: 0;
 }
-
-p {
-    font-family: Montserrat;
-    font-size: 1.2em;
-    color: white;
-    background-color: midnightblue;
+#gradientName {
+    width: 85vw;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#elipse{
+    width: 30vw;
     position: absolute;
-    z-index: 10;
-    top: -3vh;
-    display: none;
-    width: 95%;
-    height: 240px;
+    display: block;
+    margin: auto;
+    top: 30%;
+}
+#mosaic {0
+    margin-left: 0;
+    width: 100vw;
 }
 
 /*desktop style*/
@@ -188,109 +108,5 @@ p {
     }
     label {
         display: none;
-    }
-    #boat {
-        width: 80vw;
-        max-width: 600px;
-        margin-top: 22vh;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        opacity: 1;
-    }
-    #circle {
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-    }
-    #im1,
-    #im2,
-    #im3,
-    #im4,
-    #im5 {
-        margin: 0;
-    }
-    #im1:hover {
-        opacity: 0.6;
-        background-color: white;
-    }
-    #im2:hover {
-        opacity: 0.6;
-        background-color: white;
-    }
-    #im3:hover {
-        opacity: 0.6;
-        background-color: white;
-    }
-    #im4:hover {
-        opacity: 0.6;
-        background-color: white;
-    }
-    #im5:hover {
-        opacity: 0.6;
-        background-color: white;
-        animation: appear 2s linear forwards;
-    }
-    h3:hover {
-        color: gray;
-    }
-    #firstRow {
-        width: 100%;
-        display: flex;
-        align-items: flex-start;
-    }
-    #what {
-        width: 30%;
-        position: relative;
-        display: flex
-    }
-    #who {
-        position: relative;
-        display: flex;
-    }
-    #how {
-        position: relative;
-        display: flex;
-    }
-    #vision {
-        position: relative;
-        top: -45vh;
-        left: 65vw;
-    }
-    #premium {
-        position: relative;
-        top: -45vh;
-        left: 35vw;
-    }
-    h1 {
-        display: flex;
-        justify-content: center;
-    }
-    h3 {
-        font-family: Montserrat;
-        font-size: 2.5em;
-        color: white;
-        font-weight: bolder;
-        position: absolute;
-        top: 15vh;
-        left: 2vw;
-        text-shadow: 10px 0px 20px black;
-        margin: 0;
-    }
-    p {
-        max-width: 80%;
-        font-family: Montserrat;
-        font-size: 1.3em;
-        color: white;
-        background-color: midnightblue;
-        position: absolute;
-        z-index: 10;
-        top: -5vh;
-        display: none;
-        width: 30vw;
-        height: 35vh;
     }
 }
