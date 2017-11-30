@@ -2,18 +2,23 @@ body {
     /*background-color: #95C8FC;*/
     margin-left: 0;
 }
+
+
 /*NAVIGATION//////////////////////////////////*/
+
 li {
     list-style: none;
 }
+
 input {
     display: none;
 }
 
 label {
     cursor: pointer;
-    font-size: 1.6em;
+    font-size: 10vw;
     line-height: 45px;
+    margin-left: 10px;
 }
 
 nav {
@@ -26,6 +31,7 @@ input:checked~nav {
     max-height: 20vh;
     z-index: 5;
 }
+
 nav a {
     text-decoration: none;
     color: white;
@@ -47,29 +53,57 @@ nav a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+
 /* INDEX PAGE STUFF//////////////////////////////////////////////*/
+
 #gradientLogo {
-    top: 77px;
-    width: 25vw;
+    top: 10px;
+    left: 65vw;
+    width: 80px;
     position: absolute;
 }
+
 #gradientName {
-    width: 85vw;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    width: 49vw;
+    display: inline;
+    margin-left: 32vw;
 }
-#elipse{
-    width: 30vw;
+
+#elipse {
+    width: 45vw;
     position: absolute;
-    display: block;
-    margin: auto;
-    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    left: 0;
+    right: 0;
 }
-#mosaic {0
+#whiteBoat{
+    position: absolute;
+    width: 40vw;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 55%;
+    left: 0;
+    right: 0;
+
+}
+#mosaic {
     margin-left: 0;
     width: 100vw;
+}
+h3{
+    font-family: Montserrat;
+    font-size: 7vw;
+    text-align: center;
+}
+#description{
+    font-family: Montserrat;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 5.5vw;
 }
 
 /*desktop style*/
@@ -90,12 +124,10 @@ nav a:active {
         width: 15vw;
         background-color: white;
         position: absolute;
-<<<<<<< HEAD
-        top: 5vh;
+        <<<<<<< HEAD top: 5vh;
         z-index: 20;
-=======
-        display: flex;
->>>>>>> origin/master
+        =======display: flex;
+        >>>>>>>origin/master
     }
     nav a {
         font-size: 1em;
