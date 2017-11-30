@@ -57,16 +57,8 @@ nav a:active {
 
 /* INDEX PAGE STUFF//////////////////////////////////////////////*/
 
-#gradientLogo {
-    top: 10px;
-    left: 65vw;
-    width: 80px;
-    position: absolute;
-}
-
 #gradientName {
     width: 49vw;
-    display: inline;
     margin-left: 32vw;
 }
 
@@ -90,7 +82,6 @@ nav a:active {
 
 }
 #mosaic {
-    margin-left: 0;
     width: 100vw;
 }
 h3{
@@ -105,10 +96,9 @@ h3{
     padding-right: 10vw;
     font-size: 5.5vw;
 }
-
 /*desktop style*/
 
-@media only screen and (min-width:481px) {
+@media only screen and (min-width:666px) {
     nav {
         text-align: left;
     }
@@ -141,4 +131,45 @@ h3{
     label {
         display: none;
     }
+    #mosaic{
+        width: 50vw;
+    }
+    #elipse {
+    width: 30vw;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    left: 0;
+    right: 0;
+}
+    #whiteBoat{
+    width: 25vw;
+    margin-left: 12vw;
+    margin-top: 20vw;
+    left: 0;
+    right: 0;
+}
+    #gradientName {
+        position: absolute;
+     width: 15vw;
+    margin-left: 55vw;
+    margin-left: 55vw;
+}
+    h3{
+    display: inline-block;
+    position: absolute;
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 100px;
+    padding-left: 10vw;
+    }
+    #description{
+    font-family: Montserrat;
+    text-align: left;
+    position: absolute;
+    display: inline;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.2em;
+}
 }
