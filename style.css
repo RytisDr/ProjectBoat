@@ -1,5 +1,5 @@
 body {
-    /*background-color: #95C8FC;*/
+    margin-left: 0;
 }
 
 li {
@@ -7,15 +7,14 @@ li {
 }
 
 input {
-    grid-area: input;
     display: none;
 }
 
 label {
-    grid-area: label;
     cursor: pointer;
-    font-size: 1.6em;
+    font-size: 10vw;
     line-height: 45px;
+    margin-left: 10px;
 }
 
 nav {
@@ -52,12 +51,24 @@ nav a:active {
     text-decoration: underline;
 }
 
+#logoGradient {
+    width: 49vw;
+    margin-left: 25vw;
+}
+
 h1 {
     font-family: Montserrat;
     font-size: 1.5em;
-    color: black;
+    color: white;
     margin: auto;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 1.1em;
+    color: white;
     text-align: center;
+    margin-top: 3vh;
 }
 
 #boat {
@@ -95,23 +106,44 @@ h1 {
     }
 }
 
+#logoTransparent {
+    position: absolute;
+    z-index: 25;
+    top: 155vh;
+    left: 72vw;
+    width: 18vw;
+}
+
+.float {
+    animation: boatFloats infinite 3s forwards;
+}
+
+@keyframes boatFloats {
+    50% {
+        transform: translateY(-1vw);
+        transition-timing-function: ease-in-out;
+    }
+}
+
 img {
-    width: 325px;
+    width: 100vw;
 }
 
 #how {
-    background-image: url(images/backgound1.png);
+    background-image: url(images/background1.png);
     background-repeat: no-repeat;
-}
-
-h1 {
-    color: white;
+    overflow: hidden;
+    width: 90vw;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+    position: relative;
 }
 
 #textHow {
     color: white;
     font-family: Montserrat;
     padding: 1em;
+    font-size: 1em;
 }
 
 footer {
@@ -130,35 +162,84 @@ footer a {
     color: white;
 }
 
+#intro {
+    font-family: Montserrat;
+    font-size: 1em;
+    width: 90vw;
+    margin-left: 2vw;
+}
+
 
 /*desktop style*/
 
-@media only screen and (min-width:481px) {
-    nav {
-        text-align: left;
+@media only screen and (min-width:666px) {
+    #im1 {
+        width: 40vw;
+        grid-area: im1;
+        margin-bottom: 0;
+    }
+    #logoTransparent {
+        position: absolute;
+        z-index: 25;
+        top: 87vh;
+        left: 72vw;
+        width: 18vw;
+    }
+    #logoGradient {
+        width: 15vw;
+        margin-left: 0;
+        grid-area: grad;
+    }
+    #intro {
+        grid-area: intro;
+        width: 20vw;
+    }
+    #how {
+        grid-area: how;
+        width: 30vw;
+        height: 100vh;
+        margin-left: 0;
+        margin-bottom: 0;
+        position: relative;
+    }
+    #textHow {
+        width: 25vw;
+        font-size: 1em;
+    }
+    #im2 {
+        grid-area: im2;
+        width: 20vw;
+        margin-left: 2vw;
+    }
+    #im3 {
+        grid-area: im3;
+        width: 20vw;
+    }
+    #im4 {
+        grid-area: im4;
+        width: 20vw;
+    }
+    footer {
+        grid-area: foot;
+        margin: auto;
+        display: none;
     }
     nav li {
-        display: block;
         background-color: #8F2756;
         border-radius: 30px;
-        width: 180px;
-        margin-bottom: 5px;
+        width: 145px;
+        text-align: center;
+        display: inline-block;
     }
     nav {
         max-height: 35vh;
         min-width: 200px;
-        position: absolute;
-        display: flex;
-        z-index: 15;
+        grid-area: navBar;
     }
-    nav a {
-        font-size: 1em;
-        font-weight: 600;
-        line-height: 35px;
-        margin-left: 15px;
-    }
-    nav a:hover {
-        color: grey;
+    #grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas: "navBar navBar navBar grad grad" "im1 im1 intro how how" "im2 im3 im4 how how" ". . foot . .";
     }
     label {
         display: none;
