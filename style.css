@@ -221,6 +221,7 @@ h3 {
         position: relative;
     }
     h1 {
+        margin-left: 1vw;
         margin-top: 8vh;
     }
     #textHow {
