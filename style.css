@@ -81,7 +81,7 @@ h2 {
     position: absolute;
     z-index: 25;
     width: 18vw;
-    top: 78vh;
+    top: 94vh;
     left: 65vw;
 }
 
@@ -199,7 +199,7 @@ h3 {
     #logoTransparent {
         position: absolute;
         left: 5vw;
-        top: 77vh;
+        top: 57vh;
         z-index: 25;
         width: 10vw;
     }
