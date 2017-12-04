@@ -81,7 +81,7 @@ h2 {
     position: absolute;
     z-index: 25;
     width: 18vw;
-    top: 94vh;
+    top: 103vh;
     left: 65vw;
 }
 
@@ -136,7 +136,7 @@ footer a {
 
 #intro {
     font-family: Montserrat;
-    font-size: 1em;
+    font-size: 5vw;
     margin-left: 2vw;
 }
 
@@ -211,6 +211,7 @@ h3 {
     #intro {
         grid-area: intro;
         width: 20vw;
+        font-size: 1.3vw;
     }
     #how {
         grid-area: how;
@@ -221,12 +222,12 @@ h3 {
         position: relative;
     }
     h1 {
-        margin-left: 1vw;
+        margin-left: 2em;
         margin-top: 8vh;
     }
     #textHow {
         width: 25vw;
-        font-size: 1em;
+        font-size: 1.1em;
     }
     #im2 {
         grid-area: im2;
